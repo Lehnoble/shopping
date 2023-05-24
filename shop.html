@@ -1,0 +1,631 @@
+<!DOCTYPE html>
+<html>
+  <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Document</title>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Alkatra:wght@400;700&family=Noto+Serif&family=Oswald&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="shop.css">
+        <script src="https://unpkg.com/@phosphor-icons/web"></script>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0" />
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <link href="https://fonts.googleapis.com/css2?family=Edu+VIC+WA+NT+Beginner:wght@700&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Prompt:wght@300&display=swap" rel="stylesheet">
+        <link href="https://fonts.cdnfonts.com/css/akzidenz-grotesk-next" rel="stylesheet">
+                
+    </head>
+    
+<body>
+        <header>
+            <input type="radio" name="navdrop" id="nav-men">
+            <input type="radio" name="navdrop" id="nav-women">
+            <input type="radio" name="navdrop" id="nav-location">
+            <input type="radio" name="navdrop" id="nav-close">
+            
+            <div class="desktop-wrapper">
+              <div class="container-wrapper"> 
+
+                <nav class="desktop">
+
+                    <ul class="nav1">
+                      <li><a href=""><span class="material-symbols-outlined icon">search</span></a></li>
+
+                    </ul>
+
+                    <div class="logo">
+                        <a href="Sports Shop.html"><span>KD </span>SPORTS</a>
+                    </div>
+
+                    <ul class="nav1">
+                        <div class="nav-icons">
+                          <li><a href="account.html"><span class="material-symbols-outlined icon">person</span></a></li>
+                        <li>
+                          <div class="cart-display">
+                            <input type="radio" name="cart" id="cart-check">
+                            <input type="radio" name="cart" id="cart-close">
+                            <label for="cart-check">
+                              <span class="material-symbols-outlined icon">shopping_bag</span>
+                            </label>
+
+                            <div class="sidebar">
+                              <header>
+                                <h2>Your items</h2>
+                                <label for="cart-close">Close</label>
+                              </header>
+                             <div class="cart-body">
+
+                             </div>
+
+                             <div class="cart-footer">
+                              <div class="cart-price">
+                                <div class="cart-total-price">₦<span>0.00</span>
+                                </div>
+                                <span class="cart-ship">Shipping will be calculated at checkout</span>
+                              </div>
+                                  <button aria-disabled="ready" type="button" tabindex="0" class="CheckoutBtn Button Button--solid Button--base Button--gold Button--ready"><span class="Button__text">Checkout</span></button>
+                              </div>
+
+                            </div>
+                          </div>
+                        </li>
+                        </div>
+                    </ul>
+                </nav>
+
+
+
+            <!-- Mobile View -->
+            <input type="checkbox" name="" id="nav-check">
+            
+            <nav class="mobile-navbar">
+              <div class="menu-bar">
+                <button class="button"><span class="initial"><label for="nav-check"><span style="color: black;">Menu</span></label>
+                </button>
+              </div>
+
+                  <nav class="nav-mobile">
+                    <div class="search-mobile">
+                      <span class="material-symbols-outlined icon">search</span>
+                      <input type="text" placeholder="Search">
+                    </div>
+
+                      <ul class="nav-link-mobile">
+                          <li><button class="button"><span class="initial"><label for="" id=""><a href="account.html"><span style="color: black;">Login</span></a></label>
+                          </button></li>
+                      </ul>
+                  </nav> 
+
+
+                <div class="logo">
+                    <a href="Sports Shop.html" style="color: black;"><span>KD </span>SPORTS</a>
+                </div>
+                
+                <div class="nav-cart">
+                  <label><span class="material-symbols-outlined icon" style="color: black;">shopping_bag</span></label>
+                  </div>
+            </nav>
+            </div>
+            </div>
+
+
+            </div>
+
+            <!-- Popup Wrapper -->
+            <input type="checkbox" name="" id="pop-close">
+            <div class="popup-wrapper">
+                <div class="popup-content">
+                    <form action="">
+                        <div id="popup-close">
+                            <label for="pop-close">
+                                <span class="material-symbols-outlined">
+                                    close
+                                    </span>
+                            </label>
+                        </div>
+
+                        <div class="join-content">
+                            <div class="join-team">
+                                <p>Join the Team</p>
+                            </div>
+
+                            <div class="join-off">
+                                <p>Get <span style="font-style: italic;">30% off</span> </p>
+                            </div>
+
+                            <div class="gain">
+                                and gain first access to new collections
+                            </div>
+
+                            <div class="form-input">
+                                <div class="form-email">
+                                    <input type="email" name="email" placeholder="Email address" aria-required="true" required>
+                                </div>
+                                <div class="form-signup">
+                                    <button>Sign Up</button>
+                                </div>
+                                <div class="thanks">
+                                    <button type="reset">No Thanks</button>
+                                </div>
+                            </div>
+                    </form>
+                </div>
+            </div>
+        </header>
+    </div>
+
+
+    <main>
+      <div class="recent-section">
+        <div class="recent-items">
+            <div class="recent-head">
+                <h2 style="text-align: center;">Recently Bought</h2>
+                <p style="text-align: center;"><span>The design process at KD Sports begins by identifying a product need that is unique to committed buyers. We create every garment from the ground up, based on specific use cases, selecting the best materials.</span></p>
+            </div>
+        </div>
+      </div>
+
+
+      <!-- Items Sections -->
+      <div class="item-container">
+        <div class="item-wrapper">
+          <hr>
+          <div class="item-header">
+            <div class="item-side">
+                <p id="recently">Recently Bought</p>
+
+              <div class="dropdown" tabindex="1">
+                <i class="db2" tabindex="1"></i>
+                <a class="dropbtn">Collection<span class="material-symbols-outlined arrow">
+                  expand_more
+                  </span></a>
+                <div class="dropdown-content">
+                    <a href="#">All</a>
+                    <a href="#">Summer 23'</a>
+                    <a href="#">Spring 23'</a>
+                    <a href="#">Autumn 23'</a>
+                    <a href="#">Fall 23'</a>
+                </div>
+              </div>
+              
+              <div class="dropdown" tabindex="1" id="best-for">
+                <i class="db2" tabindex="1"></i>
+                <a class="dropbtn">Best For<span class="material-symbols-outlined arrow">
+                  expand_more
+                  </span></a>
+                <div class="dropdown-content">
+                  <a href="#">All</a>
+                  <a href="#">Racing</a>
+                  <a href="#">Training</a>
+                  <a href="#">Tennis</a>
+                  <a href="#">Basketball</a>
+                  <a href="#">Soccer</a>
+                  <a href="#">Football</a>
+                </div>
+              </div>
+            </div>
+
+
+            <div class="item-side">
+              <p>13 Results</p>
+
+              <div class="dropdown" tabindex="1">
+                <i class="db2" tabindex="1"></i>
+                <a class="dropbtn">Sort<span class="material-symbols-outlined arrow">
+                  expand_more
+                  </span></a>
+                <div class="dropdown-content">
+                    <a href="#">Recommended</a>
+                    <a href="#">Pricing: Low to High</a>
+                    <a href="#">Pricing: High to Low</a>
+                    <a href="#">Product Name: A to Z</a>
+                    <a href="#">Product Name: Z to A</a>
+
+                </div>
+              </div>
+            </div>
+            
+
+          </div>
+
+
+          <div class="item-jackets">
+            <div class="clothes">
+              <div class="cloth">
+                <a href="#">
+                  <p>NEW COLORS</p>
+                  <div class="image">
+                    <img src="https://tracksmith-media.imgix.net/Fall19-Mens-Session-Jacket-Update-Navy-On-Model.png?auto=format,compress&amp;crop=faces&amp;dpr=2&amp;fit=crop&amp;h=260&amp;w=260" srcset="https://tracksmith-media.imgix.net/Fall19-Mens-Session-Jacket-Update-Navy-On-Model.png?auto=format,compress&amp;crop=faces&amp;dpr=2&amp;fit=crop&amp;h=260&amp;w=260 260w" sizes="260px" width="260" height="260" decoding="async" loading="lazy" class="BaseImage__img">
+                  </div>
+                  <h3>Session Jacket</h3>
+                  <div class="productprice">
+                    ₦
+                  <span>
+                    66,800.00
+                  </span></div>
+                  <div class="quick-buy" id="quick-buy">
+                    <button>
+                      <span class="material-symbols-outlined icon">
+                        add
+                        </span>
+                      <span id="buy">Quick Buy</span>
+                    </button>
+                  </div>
+
+                </a>
+              </div>
+
+              <div class="cloth">
+                <a href="#">
+                  <p>NEW STYLES</p>
+                  <div class="image">
+                    <img src="https://tracksmith-media.imgix.net/Spring22-Mens-Rain-Jacket-Navy-On-Model_aa89e3bc-4d20-4742-a6d7-2990a72bab6c.png?auto=format,compress&amp;crop=faces&amp;dpr=2&amp;fit=crop&amp;h=260&amp;w=260" srcset="https://tracksmith-media.imgix.net/Spring22-Mens-Rain-Jacket-Navy-On-Model_aa89e3bc-4d20-4742-a6d7-2990a72bab6c.png?auto=format,compress&amp;crop=faces&amp;dpr=2&amp;fit=crop&amp;h=260&amp;w=260 260w" sizes="260px" width="260" height="260" decoding="async" loading="lazy" class="BaseImage__img">
+                  </div>
+                  <h3>Rain Jacket</h3>
+                  <div class="productprice">
+                    ₦
+                  <span>
+                    129,300.00
+                  </span></div>
+                  <div class="quick-buy" id="quick-buy">
+                    <button>
+                      <span class="material-symbols-outlined icon">
+                        add
+                        </span>
+                      <span id="buy">Quick Buy</span>
+                    </button>
+                  </div>
+                </a>
+              </div>
+
+
+              <div class="cloth">
+                <a href="#">
+                  <p>NEW COLORS</p>
+                  <div class="image">
+                    <img src="https://tracksmith-media.imgix.net/Winter22-Mens-Franklin-Quarter-Snap-Harvest-Gold.png?auto=format,compress&amp;crop=faces&amp;dpr=2&amp;fit=crop&amp;h=260&amp;w=260" srcset="https://tracksmith-media.imgix.net/Winter22-Mens-Franklin-Quarter-Snap-Harvest-Gold.png?auto=format,compress&amp;crop=faces&amp;dpr=2&amp;fit=crop&amp;h=260&amp;w=260 260w" sizes="260px" width="260" height="260" decoding="async" loading="lazy" class="BaseImage__img">
+                  </div>
+                  <h3>Franklin Quarter Snap</h3>
+                  <div class="productprice">
+                    ₦
+                  <span>
+                    72,200.00
+                  </span></div>
+                  <div class="quick-buy" id="quick-buy">
+                    <button>
+                      <span class="material-symbols-outlined icon">
+                        add
+                        </span>
+                      <span id="buy">Quick Buy</span>
+                    </button>
+                  </div>
+                </a>
+              </div>
+
+
+              <div class="cloth">
+                <a href="#">
+                  <p>NEW COLORS</p>
+                  <div class="image">
+                    <img src="https://tracksmith-media.imgix.net/NDO23-Mens-Jacket-Ivory-On-Model.png?auto=format,compress&amp;crop=faces&amp;dpr=2&amp;fit=crop&amp;h=260&amp;w=260" srcset="https://tracksmith-media.imgix.net/NDO23-Mens-Jacket-Ivory-On-Model.png?auto=format,compress&amp;crop=faces&amp;dpr=2&amp;fit=crop&amp;h=260&amp;w=260 260w" sizes="260px" width="260" height="260" decoding="async" loading="lazy" class="BaseImage__img">
+                  </div>
+                  <h3>NDO Jacket</h3>
+                  <div class="productprice">
+                    ₦
+                  <span>
+                    160,600.00
+                  </span></div>
+                  <div class="quick-buy" id="quick-buy">
+                    <button>
+                      <span class="material-symbols-outlined icon">
+                        add
+                        </span>
+                      <span id="buy">Quick Buy</span>
+                    </button>
+                  </div>
+                </a>
+              </div>
+
+
+              <div class="cloth">
+                <a href="#">
+                  <p>LIMITED-EDITION</p>
+                  <div class="image">
+                    <img src="https://tracksmith-media.imgix.net/Fall21-Mens-XC-Jacket-Navy-Plaid.png?auto=format,compress&amp;crop=faces&amp;dpr=2&amp;fit=crop&amp;h=260&amp;w=260" srcset="https://tracksmith-media.imgix.net/Fall21-Mens-XC-Jacket-Navy-Plaid.png?auto=format,compress&amp;crop=faces&amp;dpr=2&amp;fit=crop&amp;h=260&amp;w=260 260w" sizes="260px" width="260" height="260" decoding="async" loading="lazy" class="BaseImage__img">
+                  </div>
+                  <h3>Field Jacket</h3>
+                  <div class="productprice">
+                    ₦
+                  <span>
+                    129,300.00
+                  </span></div>
+                  <div class="quick-buy" id="quick-buy">
+                    <button>
+                      <span class="material-symbols-outlined icon">
+                        add
+                        </span>
+                      <span id="buy">Quick Buy</span>
+                    </button>
+                  </div>
+                </a>
+              </div>
+
+
+              <div class="cloth">
+                <a href="#">
+                  <p>NEW STYLES</p>
+                  <div class="image">
+                    <img src="https://tracksmith-media.imgix.net/Spring22-Womens-Session-Bra-Gray-On-Model.png?auto=format,compress&amp;crop=faces&amp;dpr=2&amp;fit=crop&amp;h=260&amp;w=260" srcset="https://tracksmith-media.imgix.net/Spring22-Womens-Session-Bra-Gray-On-Model.png?auto=format,compress&amp;crop=faces&amp;dpr=2&amp;fit=crop&amp;h=260&amp;w=260 260w" sizes="260px" width="260" height="260" decoding="async" loading="lazy" class="BaseImage__img">
+                  </div>
+                  <h3>Session Bra</h3>
+                  <div class="productprice">
+                    ₦
+                  <span>
+                    33,400.00
+                  </span></div>
+                  <div class="quick-buy" id="quick-buy">
+                    <button>
+                      <span class="material-symbols-outlined icon">
+                        add
+                        </span>
+                      <span id="buy">Quick Buy</span>
+                    </button>
+                  </div>
+                </a>
+              </div>
+
+
+              <div class="cloth">
+                <a href="#">
+                  <p>NEW COLORS</p>
+                  <div class="image">
+                    <img src="https://tracksmith-media.imgix.net/Spring23-Womens-Run-Bra-Lark-On-Model.png?auto=format,compress&amp;crop=faces&amp;dpr=2&amp;fit=crop&amp;h=260&amp;w=260" srcset="https://tracksmith-media.imgix.net/Spring23-Womens-Run-Bra-Lark-On-Model.png?auto=format,compress&amp;crop=faces&amp;dpr=2&amp;fit=crop&amp;h=260&amp;w=260 260w" sizes="260px" width="260" height="260" decoding="async" loading="lazy" class="BaseImage__img">
+                  </div>
+                  <h3>Run Bra</h3>
+                  <div class="productprice">
+                    ₦
+                  <span>
+                    30,300.00
+                  </span></div>
+                  <div class="quick-buy" id="quick-buy">
+                    <button>
+                      <span class="material-symbols-outlined icon">
+                        add
+                        </span>
+                      <span id="buy">Quick Buy</span>
+                    </button>
+                  </div>
+                </a>
+              </div>
+
+
+              <div class="cloth">
+                <a href="#">
+                  <p>NEW COLORS</p>
+                  <div class="image">
+                    <img src="https://tracksmith-media.imgix.net/Spring23-Womens-Session-Speed-Short-Muted-Clay.png?auto=format,compress&amp;crop=faces&amp;dpr=2&amp;fit=crop&amp;h=260&amp;w=260" srcset="https://tracksmith-media.imgix.net/Spring23-Womens-Session-Speed-Short-Muted-Clay.png?auto=format,compress&amp;crop=faces&amp;dpr=2&amp;fit=crop&amp;h=260&amp;w=260 260w" sizes="260px" width="260" height="260" decoding="async" loading="lazy" class="BaseImage__img">
+                  </div>
+                  <h3>Session Speed Shorts</h3>
+                  <div class="productprice">
+                    ₦
+                  <span>
+                    37,600.00
+                  </span></div>
+                  <div class="quick-buy" id="quick-buy">
+                    <button>
+                      <span class="material-symbols-outlined icon">
+                        add
+                        </span>
+                      <span id="buy">Quick Buy</span>
+                    </button>
+                  </div>
+                </a>
+              </div>
+
+              <div class="cloth">
+                <a href="#">
+                  <p>NEW COLORS</p>
+                  <div class="image">
+                    <img src="https://tracksmith-media.imgix.net/Spring22-Mens-Rain-Shorts-Navy.png?auto=format,compress&amp;crop=faces&amp;dpr=2&amp;fit=crop&amp;h=260&amp;w=260" srcset="https://tracksmith-media.imgix.net/Spring22-Mens-Rain-Shorts-Navy.png?auto=format,compress&amp;crop=faces&amp;dpr=2&amp;fit=crop&amp;h=260&amp;w=260 260w" sizes="260px" width="260" height="260" decoding="async" loading="lazy" class="BaseImage__img">
+                  </div>
+                  <h3>Rain Shorts</h3>
+                  <div class="productprice">
+                    ₦
+                  <span>
+                    77,600.00
+                  </span></div>
+                  <div class="quick-buy" id="quick-buy">
+                    <button>
+                      <span class="material-symbols-outlined icon">
+                        add
+                        </span>
+                      <span id="buy">Quick Buy</span>
+                    </button>
+                  </div>
+                </a>
+              </div>
+
+              <div class="cloth">
+                <a href="#">
+                  <p>NEW COLORS</p>
+                  <div class="image">
+                    <img src="https://tracksmith-media.imgix.net/Fall22-Mens-Ribbed-Half-Tight-Forest-On-Model.png?auto=format,compress&amp;crop=faces&amp;dpr=2&amp;fit=crop&amp;h=260&amp;w=260" srcset="https://tracksmith-media.imgix.net/Fall22-Mens-Ribbed-Half-Tight-Forest-On-Model.png?auto=format,compress&amp;crop=faces&amp;dpr=2&amp;fit=crop&amp;h=260&amp;w=260 260w" sizes="260px" width="260" height="260" decoding="async" loading="lazy" class="BaseImage__img">
+                  </div>
+                  <h3>Fells Tights</h3>
+                  <div class="productprice">
+                    ₦
+                  <span>
+                    51,100.00
+                  </span></div>
+                  <div class="quick-buy" id="quick-buy">
+                    <button>
+                      <span class="material-symbols-outlined icon">
+                        add
+                        </span>
+                      <span id="buy">Quick Buy</span>
+                    </button>
+                  </div>
+                </a>
+              </div>
+
+              <div class="cloth">
+                <a href="#">
+                  <p>NEW COLORS</p>
+                  <div class="image">
+                    <img src="https://tracksmith-media.imgix.net/Fall22-Mens-Turnover-Half-Zip-Lagoon-On-Model_0359f587-47fb-461e-a649-8c5bf483c655.png?auto=format,compress&amp;crop=faces&amp;dpr=2&amp;fit=crop&amp;h=260&amp;w=260" srcset="https://tracksmith-media.imgix.net/Fall22-Mens-Turnover-Half-Zip-Lagoon-On-Model_0359f587-47fb-461e-a649-8c5bf483c655.png?auto=format,compress&amp;crop=faces&amp;dpr=2&amp;fit=crop&amp;h=260&amp;w=260 260w" sizes="260px" width="260" height="260" decoding="async" loading="lazy" class="BaseImage__img">
+                  </div>
+                  <h3>Turnover Half Zip</h3>
+                  <div class="productprice">
+                    ₦
+                  <span>
+                    66,800.00
+                  </span></div>
+                  <div class="quick-buy" id="quick-buy">
+                    <button>
+                      <span class="material-symbols-outlined icon">
+                        add
+                        </span>
+                      <span id="buy">Quick Buy</span>
+                    </button>
+                  </div>
+                </a>
+              </div>
+
+              <div class="cloth">
+                <a href="#">
+                  <p>NEW COLORS</p>
+                  <div class="image">
+                    <img src="https://tracksmith-media.imgix.net/Spring23-Grayboy-LS-Green.png?auto=format,compress&amp;crop=faces&amp;dpr=2&amp;fit=crop&amp;h=260&amp;w=260" srcset="https://tracksmith-media.imgix.net/Spring23-Grayboy-LS-Green.png?auto=format,compress&amp;crop=faces&amp;dpr=2&amp;fit=crop&amp;h=260&amp;w=260 260w" sizes="260px" width="260" height="260" decoding="async" loading="lazy" class="BaseImage__img">
+                  </div>
+                  <h3>Grayboy Long Sleeve</h3>
+                  <div class="productprice">
+                    ₦
+                  <span>
+                    39,100.00
+                  </span></div>
+                  <div class="quick-buy" id="quick-buy">
+                    <button>
+                      <span class="material-symbols-outlined icon">
+                        add
+                        </span>
+                      <span id="buy">Quick Buy</span>
+                    </button>
+                  </div>
+                </a>
+              </div>
+
+              <div class="cloth">
+                <a href="#">
+                  <p>NEW COLORS</p>
+                  <div class="image">
+                    <img src="https://tracksmith-media.imgix.net/Fall22-Womens-Session-Short-Tights-Berry.png?auto=format,compress&amp;crop=faces&amp;dpr=2&amp;fit=crop&amp;h=260&amp;w=260" srcset="https://tracksmith-media.imgix.net/Fall22-Womens-Session-Short-Tights-Berry.png?auto=format,compress&amp;crop=faces&amp;dpr=2&amp;fit=crop&amp;h=260&amp;w=260 260w" sizes="260px" width="260" height="260" decoding="async" loading="lazy" class="BaseImage__img">
+                  </div>
+                  <h3>Session Short Tights</h3>
+                  <div class="productprice">
+                    ₦
+                  <span>
+                    40,700.00
+                  </span></div>
+                  <div class="quick-buy" id="quick-buy">
+                    <button>
+                      <span class="material-symbols-outlined icon">
+                        add
+                        </span>
+                      <span id="buy">Quick Buy</span>
+                    </button>
+                  </div>
+                </a>
+              </div>
+
+            </div>
+          </div>
+          </div>
+        </div>
+      </div>
+    </main>
+
+    <!-- Footer Section -->
+    <footer class="footer">
+      <div class="footer-inner">
+      <form>
+            <label for="newsletter"><h4><i>Join Our</i> Newsletter</h4></label>
+          <div class="form-input">
+            <input type="text" autocomplete="" placeholder="Enter your email" value="" id="newsletter" required="required" class="BaseInput__input BaseInput__input--navy">
+            <div class="form-input-submit">
+              <button type="submit">
+                Submit
+              </button>
+            </div>
+          </div>
+      </form>
+      <hr>
+      <div class="footer-columns">
+        <div class="footer-column-item">
+          <h6>
+            KD Sports
+          </h6>
+          <ul class="footer-column-list">
+            <li><a href="#">About</a></li>
+            <li><a href="#">How we work</a></li>
+            <li><a href="#">Foundation</a></li>
+            <li><a href="#">Products</a></li>
+            <li><a href="#">Careers</a></li>
+          </ul>
+        </div>
+
+        <div class="footer-column-item">
+          <h6>
+            Service
+          </h6>
+          <ul class="footer-column-list">
+            <li><a href="#">FAQs</a></li>
+            <li><a href="#">Newsletters</a></li>
+            <li><a href="#">Gift Cards</a></li>
+            <li><a href="#">Referrals</a></li>
+          </ul>
+        </div>
+
+        <div class="footer-column-item">
+          <h6>
+            Legal
+          </h6>
+          <ul class="footer-column-list">
+            <li><a href="#">Terms and Conditions</a></li>
+            <li><a href="#">Privay Policies</a></li>
+            <li><a href="#">Cookie Policies</a></li>
+            <li><a href="#">Do not Sell</a></li>
+          </ul>
+        </div>
+
+        <div class="footer-column-item">
+            <div class="Footer__region"><h6>
+              Region
+            </h6> 
+            <button>
+              Nigeria (NGN)
+            </button>
+            </div>
+            <div class="footer-icons">
+              <h6>Follow Us</h6>
+               <div class="footer-icon">
+                <a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a>
+                <a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a>
+                <a href="#"><i class="fa fa-youtube-play" aria-hidden="true"></i></a>
+                <a href="#"><i class="fa fa-instagram" aria-hidden="true"></i>
+                </div></a>
+            </div>
+        </div>
+      </div>
+    </div> 
+
+    </footer>
+
+
+
+
+
+</body>
+</html>

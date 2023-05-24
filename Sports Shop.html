@@ -1,0 +1,695 @@
+<!DOCTYPE html>
+<html>
+  <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Document</title>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Alkatra:wght@400;700&family=Noto+Serif&family=Oswald&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="home.css">
+        <script src="https://unpkg.com/@phosphor-icons/web"></script>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0" />
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <link href="https://fonts.googleapis.com/css2?family=Edu+VIC+WA+NT+Beginner:wght@700&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Prompt:wght@300&display=swap" rel="stylesheet">
+        <link href="https://fonts.cdnfonts.com/css/akzidenz-grotesk-next" rel="stylesheet">
+                
+    </head>
+<body>
+
+        <header>
+            <input type="radio" name="navdrop" id="nav-men">
+            <input type="radio" name="navdrop" id="nav-women">
+            <input type="radio" name="navdrop" id="nav-location">
+            <input type="radio" name="navdrop" id="nav-close">
+
+            <div class="desktop-wrapper">
+              <div class="container-wrapper"> 
+
+                <nav class="desktop">
+
+                    <ul class="nav1">
+                        <li><button class="button"><span class="initial"><label for="nav-men" id="navmen"><span>Men</span> <svg viewBox="0 0 8 5" role="presentation" preserveAspectRatio="xMidYMid meet" class="BaseIcon HeaderNavLink__icon" style="height:5px;width:8px;">
+                            <path d="M4 2.5L.1 0 0 .2C1.4 1.3 3 2.5 3.9 5H4C5 2.5 6.6 1.3 8 .2L7.9 0 4 2.5z"></path>
+                          </svg></span></label>
+                        </button>  
+                      </li>
+
+
+                          <li><button class="button" ><span class="initial"><label for="nav-women" id="navwomen">
+                            <span>Women</span> <svg viewBox="0 0 8 5" role="presentation" preserveAspectRatio="xMidYMid meet" class="BaseIcon HeaderNavLink__icon" style="height:5px;width:8px;">
+                                <path d="M4 2.5L.1 0 0 .2C1.4 1.3 3 2.5 3.9 5H4C5 2.5 6.6 1.3 8 .2L7.9 0 4 2.5z"></path>
+                              </svg></span>
+                          </label></button></li>
+                    </ul>
+
+                    <div class="logo">
+                        <a href="Sports Shop.html"><span>KD </span>SPORTS</a>
+                    </div>
+
+                    <ul class="nav1">
+                        <li><button class="button"><span class="initial"><label for="nav-location" id="navlocation"><span>Locations</span> <svg viewBox="0 0 8 5" role="presentation" preserveAspectRatio="xMidYMid meet" class="BaseIcon HeaderNavLink__icon" style="height:5px;width:8px;">
+                            <path d="M4 2.5L.1 0 0 .2C1.4 1.3 3 2.5 3.9 5H4C5 2.5 6.6 1.3 8 .2L7.9 0 4 2.5z"></path>
+                          </svg></label></span></button></li>
+                        <div class="nav-icons">
+                          <li><a href="account.html"><span class="material-symbols-outlined icon">person</span></a></li>
+                        <li><a href=""><span class="material-symbols-outlined icon">search</span></a></li>
+                    </ul>
+                </nav>
+
+
+
+            <!-- Mobile View -->
+            <input type="checkbox" name="" id="nav-check">
+            
+            <nav class="mobile-navbar">
+              <div class="menu-bar">
+                <button class="button"><span class="initial"><label for="nav-check"><span style="color: black;">Menu</span></label>
+                </button>
+              </div>
+
+                  <nav class="nav-mobile">
+                    <div class="search-mobile">
+                      <span class="material-symbols-outlined icon">search</span>
+                      <input type="text" placeholder="Search">
+                    </div>
+
+                      <ul class="nav-link-mobile">
+                          <li><button class="button"><span class="initial"><label for="" id=""><span style="color: black;">Men</span></label>
+                          </button></li>
+                          <li><button class="button"><span class="initial"><label for="" id=""><span style="color: black;">Women</span></label>
+                          </button></li>
+                          <li><button class="button"><span class="initial"><label for="" id=""><span style="color: black;">Locations</span></label>
+                          </button></li>
+                          <li><button class="button"><span class="initial"><label for="" id=""><span style="color: black;">Login</span></label>
+                          </button></li>
+                      </ul>
+                  </nav> 
+
+
+                <div class="logo">
+                    <a href="Sports Shop.html" style="color: black;"><span>KD </span>SPORTS</a>
+                </div>
+                
+                <div class="nav-cart">
+                  <a href=""><span class="material-symbols-outlined icon" style="color: black;">shopping_bag</span></a>
+                  </div>
+            </nav>
+            </div>
+            </div>
+            
+
+            
+
+
+
+            <!-- Nav Dropdown -->
+            <div class="nav-dropdown">
+                    <div class="nav-dropdown-grid container-wrapper">
+                     <div id="men">
+                        <div id="close">
+                            <label for="nav-close">
+                                <span class="material-symbols-outlined">
+                                    close
+                                    </span>
+                            </label>
+                         </div>
+                        <div class="nav-dropdown-grid-container">
+                            <div class="nav-list">
+                                <h1>Top</h1>
+                                <ul class="nav-list-items">
+                                   <li><a href="#">
+                                    Singlet
+                                  </a></li>
+                                  <li><a href="#">
+                                    BB Jerseys
+                                  </a></li>
+                                  <li><a href="#">
+                                    Long Sleeves
+                                  </a></li>
+                                  <li><a href="#">
+                                    SweatShirts
+                                  </a></li>
+                                  <li><a href="#">
+                                    Jackets
+                                  </a></li>
+                                 </ul>
+
+                                <div class="nav-footer">
+                                    <a href="#" class="nav-list-footer initial" style="border-bottom: 2px solid rgb(154, 130, 92);">
+                                  Shop All Tops
+                                    </a>
+                                </div>
+                            </div>
+
+                            <div class="nav-list">
+                                <h1>Bottom</h1>
+                                <ul class="nav-list-items">
+                                   <li><a href="#">
+                                    Shorts
+                                  </a></li>
+                                  <li><a href="#">
+                                    Tight
+                                  </a></li>
+                                  <li><a href="#">
+                                    Half Tight
+                                  </a></li>
+                                  <li><a href="#">
+                                    Underwear
+                                  </a></li>
+                                  <li><a href="#">
+                                    Pants
+                                  </a></li>
+                                 </ul>
+
+                                <div class="nav-footer">
+                                    <a href="#" class="nav-list-footer initial" style="border-bottom: 2px solid rgb(154, 130, 92);">
+                                  Shop All Tops
+                                    </a>
+                                </div>
+                            </div>
+                            
+                            <div class="nav-list">
+                                <h1>Best For</h1>
+                                <ul class="nav-list-items">
+                                   <li><a href="#">
+                                    BasketBall
+                                  </a></li>
+                                  <li><a href="#">
+                                    Soccer
+                                  </a></li>
+                                  <li><a href="#">
+                                   VolleyBall
+                                  </a></li>
+                                  <li><a href="#">
+                                    Tennis
+                                  </a></li>
+                                 </ul>
+
+                                <div class="nav-footer">
+                                    <a href="#" class="nav-list-footer initial" style="border-bottom: 2px solid rgb(154, 130, 92);">
+                                  Shop All Tops
+                                    </a>
+                                </div>
+                            </div>
+
+                            <div class="nav-list">
+                                <h1>Accessories</h1>
+                                <ul class="nav-list-items">
+                                   <li><a href="#">
+                                    Bags
+                                  </a></li>
+                                  <li><a href="#">
+                                    Socks
+                                  </a></li>
+                                  <li><a href="#">
+                                    Headwear
+                                  </a></li>
+                                  <li><a href="#">
+                                    Arm Warmer
+                                  </a></li>
+                                  <li><a href="#">
+                                    Gloves
+                                  </a></li>
+                                  <li><a href="#">
+                                    Gift Cards
+                                  </a></li>
+                                 </ul>
+
+                                <div class="nav-footer">
+                                    <a href="#" class="nav-list-footer initial" style="border-bottom: 2px solid rgb(154, 130, 92);">
+                                  Shop All Accessories
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                     </div>
+
+
+                     <!-- Nav Women -->
+                     <div id="women">
+                        <div id="close">
+                            <label for="nav-close">
+                                <span class="material-symbols-outlined">
+                                    close
+                                    </span>
+                            </label>
+                         </div>
+                        <div class="nav-dropdown-grid-container">
+                            <div class="nav-list">
+                                <h1>Top</h1>
+                                <ul class="nav-list-items">
+                                   <li><a href="#">
+                                    Bras
+                                  </a></li>
+                                  <li><a href="#">
+                                    Tennis Shirts
+                                  </a></li>
+                                  <li><a href="#">
+                                    Long Sleeves
+                                  </a></li>
+                                  <li><a href="#">
+                                    SweatShirts
+                                  </a></li>
+                                  <li><a href="#">
+                                    Jackets
+                                  </a></li>
+                                 </ul>
+
+                                <div class="nav-footer">
+                                    <a href="#" class="nav-list-footer initial" style="border-bottom: 2px solid rgb(154, 130, 92);">
+                                  Shop All Tops
+                                    </a>
+                                </div>
+                            </div>
+
+                            <div class="nav-list">
+                                <h1>Bottom</h1>
+                                <ul class="nav-list-items">
+                                   <li><a href="#">
+                                    Shorts
+                                  </a></li>
+                                  <li><a href="#">
+                                    Tight
+                                  </a></li>
+                                  <li><a href="#">
+                                    Half Tight
+                                  </a></li>
+                                  <li><a href="#">
+                                    Underwear
+                                  </a></li>
+                                  <li><a href="#">
+                                    Pants
+                                  </a></li>
+                                 </ul>
+
+                                <div class="nav-footer">
+                                    <a href="#" class="nav-list-footer initial" style="border-bottom: 2px solid rgb(154, 130, 92);">
+                                  Shop All Tops
+                                    </a>
+                                </div>
+                            </div>
+                            
+                            <div class="nav-list">
+                                <h1>Best For</h1>
+                                <ul class="nav-list-items">
+                                   <li><a href="#">
+                                    BasketBall
+                                  </a></li>
+                                  <li><a href="#">
+                                    Soccer
+                                  </a></li>
+                                  <li><a href="#">
+                                   VolleyBall
+                                  </a></li>
+                                  <li><a href="#">
+                                    Tennis
+                                  </a></li>
+                                 </ul>
+
+                                <div class="nav-footer">
+                                    <a href="#" class="nav-list-footer initial" style="border-bottom: 2px solid rgb(154, 130, 92);">
+                                  Shop All Tops
+                                    </a>
+                                </div>
+                            </div>
+
+                            <div class="nav-list">
+                                <h1>Accessories</h1>
+                                <ul class="nav-list-items">
+                                   <li><a href="#">
+                                    Bags
+                                  </a></li>
+                                  <li><a href="#">
+                                    Socks
+                                  </a></li>
+                                  <li><a href="#">
+                                    Headwear
+                                  </a></li>
+                                  <li><a href="#">
+                                    Purses
+                                  </a></li>
+                                  <li><a href="#">
+                                    Earrings
+                                  </a></li>
+                                  <li><a href="#">
+                                    Heels
+                                  </a></li>
+                                 </ul>
+
+                                <div class="nav-footer">
+                                    <a href="#" class="nav-list-footer initial" style="border-bottom: 2px solid rgb(154, 130, 92);">
+                                  Shop All Accessories
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                     </div>
+
+
+                     <!-- Nav Location -->
+                     <div id="location">
+                        <div id="close">
+                            <label for="nav-close">
+                                <span class="material-symbols-outlined">
+                                    close
+                                    </span>
+                            </label>
+                         </div>
+                        <div class="nav-dropdown-grid-container">
+                            <div class="nav-list">
+                                <h1>Trackhouse</h1>
+                                <dl class="nav-list-items">
+                                   <dt>Lagos</dt>
+                                    <dd>Located at Oshodi in Lagos’s historic Back Bay, the Trackhouse is our first retail store and a community hub for runners. Come join us for a training run or take in a race live-stream at our lounge.</dd>
+                                 </dl>
+
+                                <div class="nav-footer">
+                                    <a href="#" class="nav-list-footer initial" style="border-bottom: 2px solid rgb(154, 130, 92);">
+                                  Lagos Trackhouse
+                                    </a>
+                                </div>
+                            </div>
+
+                            <div class="nav-list">
+                                <h1>Bottom</h1>
+                                <dl class="nav-list-items">
+                                    <dt>Port-Harcourt</dt>
+                                     <dd>We will be opening our permanent Port Harcourt Trackhouse at 25 Chiltern Street ahead of the 2023 Marathon in the coming weeks. Visit us soon to shop our training essentials, celebrate the marathon and join weekly group training runs.</dd>
+                                  </dl>
+
+                                <div class="nav-footer">
+                                    <a href="#" class="nav-list-footer initial" style="border-bottom: 2px solid rgb(154, 130, 92);">
+                                  Port-Harcourt Trackhouse
+                                    </a>
+                                </div>
+                            </div>
+                            
+                            <div class="nav-list">
+                                <h1>Best For</h1>
+                                <dl class="nav-list-items">
+                                    <dt>Abuja</dt>
+                                     <dd>Located at FCT in Abuja’s historic Back Bay, the Trackhouse is our first retail store and a community hub for runners. Come join us for a training run or take in a race live-stream at our lounge.</dd>
+                                  </dl>
+
+                                <div class="nav-footer">
+                                    <a href="#" class="nav-list-footer initial" style="border-bottom: 2px solid rgb(154, 130, 92);">
+                                  Abuja Trackhouse
+                                    </a>
+                                </div>
+                            </div>
+
+                        </div>  
+                     </div> 
+                    </div>
+
+                 </div>
+
+            </div>
+
+            <div class="header-content">
+              <div class="header-seed">
+                <h2>Home <i>of</i> <br>Sports</h2>
+                <p>As the weather changes, embrace the change with new styles for training, racing and soccer.</p>
+
+              </div>
+
+              <div class="header-links header-seed">
+                <a href="#">View logbook</a>
+                <a href="shop.html">View Recents</a>
+              </div>
+            </div>
+        </header>
+    </div>
+
+
+    <main>
+      <div class="sponsorship-section">
+        <div class="sponsorship-content">
+          <div class="sponsorship-image">
+            <div class="image">
+              <img src="Images/adidas.jpg" alt="Adidas Picture">
+            </div>
+            <div class="desc">
+              <h4>Adidas</h4>
+              <p>
+                KD Sports's partnership with Adidas has been lucrative, with the company reportedly earning millions annually. </p>
+            </div>
+            <div class="small-desc">
+              <a href="#">
+                Shop Adidas
+              </a>
+            </div>
+          </div>
+
+          <div class="sponsorship-image">
+            <div class="image">
+              <img src="Images/nike.jpg" alt="Nike Picture">
+            </div>
+            <div class="desc">
+              <h4>Nike</h4>
+              <p>On May 6, 2008, Baridoo Noble signed a five-year, US$2.5 million deal with Nike, three times more than any other deal in Nigeria at the time. Nike released the sneaker line in April 2009 with the goal of making $3 million in the first three years.</p>
+            </div>
+            <div class="small-desc">
+              <a href="#">
+                Shop Nike
+              </a>
+            </div>
+          </div>
+
+          <div class="sponsorship-image">
+            <div class="image">
+              <img src="Images/jordan.jpg" alt="Jordan Picture">
+            </div>
+            <div class="desc">
+              <h4>Jordans</h4>
+              <p>It was late January 2018, when KD Sport's, then a five-star brand at Port-Harcourt in Nigeria, signed a whooping 10 year contract with the brand Jordan.</p>
+            </div>
+            <div class="small-desc">
+              <a href="#">
+                Shop Jordan
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="made-for">
+        <div class="made-for-contents">
+          <div class="made-for-content">
+            <div class="header-seed">
+              <h2>Made <br><i>for</i> Miles</h2>
+              <p>Shop Men</p>
+            </div>
+            <div class="header-links header-seed">
+              <a href="#">Best Sellers</a>
+              <a href="#">All Men Collection</a>
+            </div>
+          </div>
+
+          <div class="made-for-content1">
+            <div class="header-seed">
+              <h2>Built <i>for</i> <br><i>your </i>Best</h2>
+              <p>Shop Women</p>
+  
+            </div>
+            <div class="header-links header-seed">
+              <a href="#">Best Sellers</a>
+              <a href="#">All Women Collection</a>
+            </div>
+          </div>
+        </div>
+      </div>
+
+
+      <!-- Journal Section -->
+      <div class="journal-section">
+        <div class="journal-section-wrapper">
+          <div class="journal-header"><h3 style="text-align: center;"><em>The </em>Journal</h3>
+            <p style="text-align: center;">Stories and reflections on the hidden side of running culture and at the athletes, traditions and events that make running the greatest sport in the world.</p>
+            </div>
+
+
+            <div class="journal-contents">
+              <section>
+                <div class="journal-film">
+                  <div class="journal-film-image">
+                    <img src="Images/1665061956-legs-up.jpg" alt="Legs Up">
+                  </div>
+                  <h3 class="journal-film-header"><span>
+                    Film
+                  </span></h3>
+                  <article class="journal-film-article"><h5>That's Running</h5><p>
+                    To love is to relish the mundane. As runners, we invest deeply in a sport of repetition, failure and loneliness. This shared passion creates a secret language, a&nbsp;lingua franca&nbsp;that transcends pace or prominence, culture or creed. And that's running.
+                  </p></article>
+                  <div class="journal-footer"><a href="#">
+                    Watch Films
+                  </a></div>
+                </div>
+              </section>
+
+              <div class="journal-stories">
+                <div class="journal-story">
+                  <div class="journal-story-content">
+                    <div class="journal-film-image">
+                      <img src="Images/1680877983-bobbi_final_web004.jpg" alt="Bobi Final">
+                    </div>
+                    <h3 class="journal-film-header"><span>
+                      Story
+                    </span></h3>
+                    <article class="journal-film-article"><h5>Out of the Shadows: Bobbi Gibb and a History of Firsts</h5></article>
+                    <div class="journal-footer"><a href="#">
+                      Read Story
+                    </a></div>
+                  </div>
+  
+                  <div class="journal-story-content">
+                    <div class="journal-film-image">
+                      <img src="Images/1680625614-tracksmithflutiefoundation_3182023-9.jpg" alt="Boy thinking">
+                    </div>
+                    <h3 class="journal-film-header"><span>
+                      Story
+                    </span></h3>
+                    <article class="journal-film-article"><h5>Adaptive Runners: Prove Us Wrong</h5></article>
+                    <div class="journal-footer"><a href="#">
+                      Read Story
+                    </a></div>
+                  </div>
+  
+                  <div class="journal-story-content">
+                    <div class="journal-film-image">
+                      <img src="Images/1678286079-tracksmith_spain_mainfilm_final_02272023_textless-00_02_45-54 (1).jpg" alt="Legs Kneel">
+                    </div>
+                    <h3 class="journal-film-header"><span>
+                      Film
+                    </span></h3>
+                    <article class="journal-film-article"><h5>A Tracksmith Film: Carlos Riquelme in Olot</h5><p>Follow Carlos Riquelme as he tackles a workout of 20x400m on the track in Olot, and...
+                    </p></article>
+                    <div class="journal-footer"><a href="#">
+                      Watch Films
+                    </a></div>
+                  </div>
+  
+                  <div class="journal-story-content">
+                    <div class="journal-film-image">
+                      <img src="Images/1675095686-tracksmithxpinkfeathers_1112023_finaldelivery-50.jpg" alt="Woman">
+                    </div>
+                    <h3 class="journal-film-header"><span>
+                      Story
+                    </span></h3>
+                    <article class="journal-film-article"><h5>Liz Derstine - Pink Feathers: Rhythm of Routine</h5><p>How a professional musician and OTQ-hopeful found herself ultra-trail running and studying...
+                    </p></article>
+                    <div class="journal-footer"><a href="#">
+                      Read Story
+                    </a></div>
+                  </div>
+  
+                  <div class="journal-story-content">
+                    <div class="journal-film-image">
+                      <img src="https://www.datocms-assets.com/24486/1679930115-grayboy_brenna_web067.jpg?auto=format,compress&crop=faces&dpr=2&fit=crop&h=1024&w=1536" alt="Woman Running">
+                    </div>
+                    <h3 class="journal-film-header"><span>
+                      Story
+                    </span></h3>
+                    <article class="journal-film-article"><h5>Where Are All the Female Coaches?</h5><p>As women’s running continues to grow in popularity, the question remains.</p></article>
+                    <div class="journal-footer"><a href="#">
+                     Read Story
+                    </a></div>
+                  </div>
+                </div>
+
+                <div class="journal-more"><a href="#"><span>
+                  More from the Journal
+                </span></a></div>
+              </div>
+            </div>
+        </div>
+      </div>
+
+    </main>
+
+    <!-- Footer Section -->
+    <footer class="footer">
+      <div class="footer-inner">
+      <form>
+            <label for="newsletter"><h4><i>Join Our</i> Newsletter</h4></label>
+          <div class="form-input">
+            <input type="text" autocomplete="" placeholder="Enter your email" value="" id="newsletter" required="required" class="BaseInput__input BaseInput__input--navy">
+            <div class="form-input-submit">
+              <button type="submit">
+                Submit
+              </button>
+            </div>
+          </div>
+      </form>
+      <hr>
+      <div class="footer-columns">
+        <div class="footer-column-item">
+          <h6>
+            KD Sports
+          </h6>
+          <ul class="footer-column-list">
+            <li><a href="#">About</a></li>
+            <li><a href="#">How we work</a></li>
+            <li><a href="#">Foundation</a></li>
+            <li><a href="#">Products</a></li>
+            <li><a href="#">Careers</a></li>
+          </ul>
+        </div>
+
+        <div class="footer-column-item">
+          <h6>
+            Service
+          </h6>
+          <ul class="footer-column-list">
+            <li><a href="#">FAQs</a></li>
+            <li><a href="#">Newsletters</a></li>
+            <li><a href="#">Gift Cards</a></li>
+            <li><a href="#">Referrals</a></li>
+          </ul>
+        </div>
+
+        <div class="footer-column-item">
+          <h6>
+            Legal
+          </h6>
+          <ul class="footer-column-list">
+            <li><a href="#">Terms and Conditions</a></li>
+            <li><a href="#">Privay Policies</a></li>
+            <li><a href="#">Cookie Policies</a></li>
+            <li><a href="#">Do not Sell</a></li>
+          </ul>
+        </div>
+
+        <div class="footer-column-item">
+            <div class="Footer__region"><h6>
+              Region
+            </h6> 
+            <button>
+              Nigeria (NGN)
+            </button>
+            </div>
+            <div class="footer-icons">
+              <h6>Follow Us</h6>
+               <div class="footer-icon">
+                <a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a>
+                <a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a>
+                <a href="#"><i class="fa fa-youtube-play" aria-hidden="true"></i></a>
+                <a href="#"><i class="fa fa-instagram" aria-hidden="true"></i>
+                </div></a>
+            </div>
+        </div>
+      </div>
+    </div> 
+
+    </footer>
+
+
+
+
+
+</body>
+</html>

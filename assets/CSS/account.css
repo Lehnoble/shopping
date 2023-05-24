@@ -1,0 +1,240 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+a{
+    text-decoration: none;
+}
+
+li{
+    list-style-type: none;
+}
+
+body{
+    font-family: 'Akzidenz-Grotesk Next'  sans-serif;
+}
+
+img{
+    width: 100%;
+}
+
+
+
+/* Header Design */
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 24px 0;
+}
+
+/* Logo Design */
+.logo a{
+    font-family: 'Alkatra', cursive;
+    font-size: 20px;
+    font-weight: 800;
+    color: white;
+}
+
+.logo span{
+    background-color: black;
+    border-radius: 50px;
+    color: white;
+    padding: 3px;
+}
+
+/* Login and Register Design */
+.login-register{
+    display: block;
+    width: 100%;
+    padding-right: 80px;
+    padding-left: 80px;
+    margin-right: auto;
+    margin-left: auto;
+    padding-top: 80px;
+    padding-bottom: 80px;
+    text-align: center;
+}
+
+.login-register-section {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.login-reg{
+    padding-right: 80px;
+    padding-left: 80px;
+    padding-top: 40px;
+    padding-bottom: 20px;
+}
+
+.login-reg form{
+    margin-right: auto;
+    margin-left: auto;
+    max-width: 400px;
+}
+
+.login-reg form legend{
+    padding-bottom: 24px;
+    font-family: Sainte Colombe, serif;
+    font-size: 34px;
+    letter-spacing: -2px;
+    font-weight: 400;
+    text-align: center;
+}
+
+.login-reg label{
+    position: absolute;
+    font-family: Akzidenz-Grotesk BQ, sans-serif;
+    font-size: 10px;
+    letter-spacing: .1em;
+    padding-bottom: 3px;
+    color: rgba(10, 30, 50, .6);
+    text-transform: uppercase;
+    visibility: hidden;
+    top: 0;
+}
+
+fieldset>div{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 36px;
+    position: relative;
+}
+
+
+.login-reg input[type="text"], .login-reg input[type="password"], .login-reg input[type="email"]{
+    padding: 16px;
+    font-family: Sainte Colombe, serif;
+    font-size: 16px;
+    border-width: 1px;
+    border-color: rgba(10, 30, 50, .2);
+    /* width: 100%; */
+    background-color: transparent;
+    /* outline: thin solid; */
+    outline-width: 1px;
+    transition: .3s;
+    margin-top: 1rem;
+}
+
+.login-reg input:hover{
+    border-color: black;
+}
+
+.login-reg input:focus~ label{
+    visibility: visible;
+}
+
+.login-reg .form-submit{
+    margin-bottom: 36px;
+}
+
+.login-reg .form-submit input{
+    display: inline-block;
+    vertical-align: middle;
+    font: inherit;
+    text-align: center;
+    margin: 0;
+    cursor: pointer;
+    padding: 12px 36px;
+    outline: none;
+    font-family: inherit;
+    font-size: 12px;
+    letter-spacing: .1em;
+    text-transform: uppercase;
+    min-width: 180px;
+    border: thin solid transparent;
+    transition: .3s;
+    background-color: #9a825c;
+    color: white;
+}
+
+.login-reg .form-submit input:hover{
+    transition: .3s;
+    background-color: #a58e69;
+}
+
+.login-reg p{
+    text-transform: uppercase;
+    font-weight: 400;
+    font-size: 12px;
+    letter-spacing: .1em;
+    font-family: Akzidenz-Grotesk BQ, sans-serif;
+}
+
+.login-reg p a{
+    opacity: 1;
+    color: #9a825c;
+    border-bottom: thin solid currentColor;
+    transition: .25s;
+}
+
+.login-reg p a:hover{
+    opacity: .6;
+}
+
+.exclusive{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.exclusive label{
+    position: static;
+    top: auto;
+    visibility: visible;
+    display: inline-block;
+    cursor: pointer;
+    padding-top: .8em;
+    padding-left: 10px;
+    padding-bottom: 6px;
+    font-size: 10px;
+    letter-spacing: .1em;
+    color: #5c6469;
+    transition: .3s;
+}
+
+
+/* Login */
+.login-container {
+    width: 50%;
+    border-right: thin solid rgba(0,0,0,.1);
+}
+
+.register-container {
+    width: 50%;
+}
+
+
+
+@media screen and (max-width: 850px) {
+    .login-register-section{
+        justify-content: center;
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .login-container{
+        width: 100%;
+        border-right: none;
+        padding-bottom: 20px;
+        border-bottom: thin solid rgba(0,0,0,.1);
+    }
+
+    .register-container{
+        width: 100%;
+    }
+
+    .login-reg{
+        padding-right: 0px;
+        padding-left: 0px;
+    }
+
+    .login-register{
+        padding-right: 36px;
+        padding-left: 36px;
+    }
+}
